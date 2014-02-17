@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Strava: Running TSS estimator",
+  "description": "Estimates a running Training Stress Score from Pace Distribution",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "js": ["js/content_script.js"],
+      "run_at": "document_end",
+      "matches": ["http://*.strava.com/*"]
+    }
+  ],
+  "web_accessible_resources": [
+    "js/injected.js"
+  ]
+}
