@@ -18,4 +18,5 @@ Installation
  * Click "Load unpacked extension" and select the directory you have stored
    this code.
 
- * Refresh any page on Strava - the extension will now be active.
+ * Refresh a "Pace Distribution" page on Strava; the estimated Training Stress
+   Score will be displayed next to the calories and elevation stats.
