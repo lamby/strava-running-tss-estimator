@@ -1,3 +1,4 @@
+(function() {
   var TSS_PER_HOUR = {
     'Z1':  60,
     'Z2': 100,
@@ -31,3 +32,4 @@
 
     return result;
   };
+})();
